@@ -1,0 +1,106 @@
+.container{
+  width: 1000px;
+  margin: 0 auto;
+  padding: 5px;
+}
+
+.row{
+  display: flex;
+}
+
+.row h1{
+  text-align: center;
+}
+
+.col{
+  padding: 8px;
+  width: 100%
+}
+.hero-box{
+  text-align: center;
+  background-image: url('../images/sale72.jpg');
+  background-size: cover;
+  background-position: center center;
+  width: 1300px;
+  margin: auto;
+}
+
+.hero-box h1{
+text-shadow: 1px 1px 1px black;
+}
+
+.hero-box h3{
+text-shadow: 1px 1px 1px black;
+}
+.overlay{
+  height: 400px;
+  padding: 1px;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.25);
+  color: #EDEDED;
+}
+
+.button{
+  text-decoration: none;
+  background-color: #555;
+  color: #eee;
+  padding: 8px 15px;
+  border-radius: 5px;
+  font-weight: bold;
+  border: 3px solid #888;
+  transition: all .3s linear;
+  position: relative;
+  top: 0px;
+  display: inline-block
+}
+
+
+
+.button:hover{
+  top: -3px;
+  background-color: #333;
+  color: #fff;
+  border: 3px solid #555;
+}
+
+.col-50{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 1.25em;
+
+}
+
+.textBox{
+  width: 400px;
+}
+
+.w-100{
+  width: 400px;
+  height: 300px;
+  display: block;
+  margin: auto;
+}
+
+.col-50 p{
+  text-align: center;
+}
+
+.containerBottom{
+  width: 1300px;
+  margin: 0 auto;
+  padding: 5px;
+  padding-top: 20px;
+}
+.col-50Bottom{
+text-align: center;
+font-size: 1.7em;
+}

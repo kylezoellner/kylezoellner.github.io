@@ -1,0 +1,87 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    text-align: center;
+    color: darkslategrey;
+}
+
+.title{
+    width:            100%;
+    background:      yellow;
+    padding:          0px;
+    text-align: center;
+}
+
+.smalltitle{
+    margin-left: 10px;
+}
+
+.col-50-1{
+    float: left;
+    width: 45%;
+    border-style: solid;
+    margin-left: 20px;
+    height: 810px;
+}
+
+.col-50{
+    float: right;
+    width: 45%;
+    border-style: solid;
+    margin-right: 20px;
+    height: 810px;
+}
+
+.gitlink{
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.stufflabel{
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+#bar, #colortext, #submit{
+    margin-left: 10px;
+    margin-top: 20px;
+}
+#image1{
+    margin-top: 10px;
+    width: 200px;
+    border: dotted 5px;
+    margin-left: 20px;
+}
+
+#image2{
+    margin-top: 50px;
+    width: 200px;
+    border: dotted 5px;
+    margin-left: 20px;
+}
+
+#image1:hover{
+    width: 400px;
+}
+
+#image2:hover{
+    width: 400px;
+}
+
+table, th, td{
+    border: 2px solid;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.gcell{
+    background-color: #6ab099;
+    color: #e0f6ef;
+    border-color: black;
+}
+
+table{
+    margin: auto;
+}

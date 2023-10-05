@@ -1,0 +1,76 @@
+body{
+  margin: 20px
+
+}
+
+.top {
+  text-align: center;
+  margin-top: 45px;
+}
+
+.top h1{
+  margin-bottom: 10px;
+}
+
+.top h2{
+  /*margin-top: 30px;*/
+  width: 40%;
+  font-size: 2em;
+}
+
+.center {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 25%;
+   height: auto;
+   padding-top: 3px
+
+ }
+
+ .row{
+  display: flex;
+  margin: 0 auto;
+  width: 1100px
+}
+
+ .w-100{
+   width: 50%;
+   float: left;
+   padding-right: 15px
+ }
+
+ .col{
+   padding: 10px;
+   width: 100%;
+ }
+
+ .col-50{
+  width: 50%;
+}
+
+.staff{
+  padding-top: 10px;
+  text-align: center;
+}
+.Bottom{
+  text-align: center;
+  margin: 0 auto;
+  width: 600px;
+  align-items: center;
+
+}
+
+.Bottom h1{
+  text-align: center;
+}
+
+.Bottom h2{
+  font-size: 1.75em;
+}
+
+.w{
+  margin: 0 auto;
+  width: 1100px;
+  font-weight: normal;
+}

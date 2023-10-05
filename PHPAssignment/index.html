@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PHP Assignment
+    </title>
+
+    <style>
+        body{
+            width: 75%;
+            margin: 20px auto;
+            background-color: aqua;
+        }
+        h1{
+            text-align: center;
+        }
+
+        form{
+            background-color: beige;
+            padding: 10px;
+        }
+
+        #o1, #o2, #o3, #o4{
+            border: 2px dotted green;
+            display: block;
+            width: 15%;
+        }
+    </style>
+</head>
+<body>
+    <h1>Questions</h1>
+    <form action="form-viewer.php" method="GET">
+        <fieldset>
+            <legend>Checkbox</legend>
+            <div id="o1">
+            <input type="checkbox" name="drawing" id="option1">
+            <label for="option1">Drawing</label>
+            </div>
+            <br>
+            <div id="o2">
+                <input type="checkbox" name="dancing" id="option2">
+                <label for="option2">Dancing</label>
+            </div>
+            <br>
+            <div id="o3">
+                <input type="checkbox" name="singing" id="option3">
+                <label for="option3">Singing</label>
+            </div>
+            <br>
+            <div id="o4">
+                <input type="checkbox" name="painting" id="option2">
+                <label for="option4">Painting</label>
+                </div>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Radio</legend>
+            <input type="radio" name="color" id="q1" value="red">
+            <label for="q1">Red</label>
+            <br>
+            <input type="radio" name="color" id="q2" value="blue">
+            <label for="q2">Blue</label>
+            <br>
+            <input type="radio" name="color" id="q3" value="green">
+            <label for="q3">Green</label>
+            <br>
+            <input type="radio" name="color" id="q4" value="yellow">
+            <label for="q4">yellow</label>
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>Select</legend>
+            <label for="Physical Activity">Physical Activity:</label>
+            <select name="PA" id="PA">
+                <optgroup label="Outside">
+                    <option value="hiking">Hiking</option>
+                    <option value="running">Running</option>
+                    <option value="climbing">Climbing</option>
+                </optgroup>
+                <optgroup label="Inside">
+                    <option value="Lifting">Lifting</option>
+                    <option value="MMA">MMA</option>
+                    <option value="Crossfit">Crossfit</option>
+                </optgroup>
+            </select>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Multiselect</legend>
+            <label for="b/l/d">Breakfast or Lunch or Dinner:</label>
+            <select name="b/l/d[]" id="b/l/d" size="3" multiple>
+                <option value="eggs">Eggs</option>
+                <option value="sandwich">Sandwich</option>
+                <option value="steak">Steak</option>
+                <option value="cereal">Cereal</option>
+                <option value="blt">Sandwich</option>
+                <option value="soup">Steak</option>
+            </select>
+        </fieldset>
+        <br>
+        <!--<input type="submit" name="submitbtn" id="sb" value="Send Answers" />-->
+        <button disabled="true">Submit</button>
+        <p><a href="../index.html">Return Home</a></p>
+    </form>
+    
+</body>
+</html>
